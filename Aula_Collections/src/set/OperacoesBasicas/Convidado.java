@@ -20,6 +20,7 @@ public class Convidado {
         return codigoConvite;
     }
 
+    // metodo criado atraves do metodo Generate Equals() and hashCode()
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
